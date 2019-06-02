@@ -1,0 +1,31 @@
+{
+  "name": "node-academy-db",
+  "version": "1.0.0",
+  "description": "Node Academy's final project database setup (MySQL/PostgresSQL)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mysql": "node -r dotenv/config mysql/connection.js"
+  },
+  "keywords": [
+    "cities",
+    "sisters",
+    "db",
+    "sql",
+    "countries",
+    "regions",
+    "setup",
+    "node",
+    "globant"
+  ],
+  "author": "Jorge Ivan Morales Obando",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "mysql": "^2.17.1",
+    "pg": "^7.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
