@@ -1,8 +1,7 @@
 {
   "name": "node-academy-db",
   "version": "1.0.0",
-  "description": "Node Academy's final project database setup (MySQL/PostgresSQL)",
-  "main": "index.js",
+  "description": "Node Academy's final project database setup (MySQL)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "mysql": "node -r dotenv/config mysql/connection.js"
@@ -21,9 +20,10 @@
   "author": "Jorge Ivan Morales Obando",
   "license": "UNLICENSED",
   "dependencies": {
+    "csv-parse": "^4.4.3",
     "dotenv": "^8.0.0",
-    "mysql": "^2.17.1",
-    "pg": "^7.11.0"
+    "mysql2": "^1.6.5",
+    "progress": "^2.0.3"
   },
   "devDependencies": {
     "eslint": "^5.16.0"
