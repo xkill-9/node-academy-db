@@ -39,7 +39,7 @@ const CREATE_SISTERS_TABLE = `
     city1 VARCHAR(255) NOT NULL,
     city2 VARCHAR(255) NOT NULL,
     FOREIGN KEY (city1) REFERENCES cities(code),
-    FOREIGN KEY (city1) REFERENCES cities(code)
+    FOREIGN KEY (city2) REFERENCES cities(code)
   )
 `;
 
